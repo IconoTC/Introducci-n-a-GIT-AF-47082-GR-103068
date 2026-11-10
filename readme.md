@@ -49,31 +49,29 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 1 (Martes 10/11/2026)
 
-<!-- 
 - Presentación profesor / alumnos
 - Introducción: Qué es un SCV y qué un SCV distribuido
 - IDE / Editor de código: Visual Studio Code (VSC)
-- Instalación de Git
 - Terminales
+- Instalación de Git
   Configuración inicial
   - Nombre de usuario y correo electrónico
 - Primeros pasos con Git
-
   - Primer repo (init), primer commit: .gitignore / readme.md
+
+- [Descanso] 11:30 - 11:50
+
+
+- Primeros pasos con Git (2)
+
   - Anatomía de un repositorio git: working directory, staging area (index o cache) y repositorio (.git)
   - Estados de un archivo: untracked (U), tracked (modified (M), staged (A), committed)
   - add/commit/reset y status/log/show - GitGraph
   - Mensajes de commit
--->
-
-- [Descanso] 11:30 - 11:50
-
-<!-- - Primeros pasos con Git (2)
 
 - Anatomía de comandos típicos, referencias VS paths
 
   - HEAD, master, HEAD~1 y otras referencias útiles
-  - Referencias por mensaje de commit (:/cadena)
 
 - Integración con otras herramientas y entornos
   - Clientes gráficos
@@ -81,14 +79,17 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Repositorios remotos: GitHub, GitLab, Bitbucket
     - remotes -> push / pull
     - Clonar un repositorio: clone
+
 - Comprobar el repositorio.
   - git log
   - git show
   - git diff
+
 - Aliases
   - Qué son
   - Cómo crearlos desde el CLI: `git config --global alias.ch checkout`
   - Crearlos editando el fichero de configuración: `git config --global -e` 
+
 - Ficheros Markdown
   - Qué son
   - Sintaxis básica
@@ -107,20 +108,25 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - Taller: creación de un repositorio git "a mano" 
 -->
 
-<!-- - Estructura interna de Git (brevemente)
+- Estructura interna de Git (brevemente)
   - Objetos git: blobs, trees, commits (y tags)
-  - Referencias: HEAD, ramas (tags y remotes) -->
+  - Referencias: HEAD, ramas (tags y remotes)
 
-### Día 2 (Miércoles 11/11/2026)
 
-<!-- - Herramientas para preparar un buen commit en cualquier situación
+- Herramientas para preparar un buen commit en cualquier situación
 
   - Operaciones en la Staging Area (Index)
     - Añadir ficheros
-    - Eliminar de la Staging Area (Index) -->
+    - Eliminar de la Staging Area (Index)
+
 <!-- - Preparar un commit parcial: git add -p -->
 
-  <!-- - Eliminar ficheros: git rm
+### Día 2 (Miércoles 11/11/2026)
+  
+<!-- 
+- Herramientas para preparar un buen commit en cualquier situación (2)
+  
+  - Eliminar ficheros: git rm
   - Cambiar nombre de ficheros: git mv
   - git blame
   - Recapitulando: Git básico
@@ -132,14 +138,15 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - git checkout y git reset (introducción)
     - git checkout
       - Evolución de git checkout: Nuevos comandos git switch y git restore
-        - git checkout a nivel de archivo (restore) -->
+        - git checkout a nivel de archivo (restore) 
+  - git reset
+    - opciones de git reset: --soft, --mixed y --hard
+    - git reset a nivel de archivo
+-->
 
 - [Descanso] 11:30 - 11:50
 
 <!-- - Reescribiendo la historia (2)
-  - git reset
-    - opciones de git reset: --soft, --mixed y --hard
-    - git reset a nivel de archivo
   - rebase interactivo
     - edit: modificando un commit
     - squash y fixup: fusionando commits
