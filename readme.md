@@ -71,7 +71,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 - Anatomía de comandos típicos, referencias VS paths
 
-  - HEAD, master, HEAD~1 y otras referencias útiles
+  - HEAD, main, HEAD~1 y otras referencias útiles
 
 - Integración con otras herramientas y entornos
   - Clientes gráficos
@@ -93,7 +93,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 - Ficheros Markdown
   - Qué son
   - Sintaxis básica
-  - Vista previa en VSC / GitHub / GitLab  -->
+  - Vista previa en VSC / GitHub / GitLab
 
 <!-- (No incluido en el curso actual)
 
@@ -123,12 +123,11 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 2 (Miércoles 11/11/2026)
   
-<!-- 
 - Herramientas para preparar un buen commit en cualquier situación (2)
   
   - Eliminar ficheros: git rm
   - Cambiar nombre de ficheros: git mv
-  - git blame
+  <!-- - git blame -->
   - Recapitulando: Git básico
 
   - Reescribiendo la historia
@@ -138,50 +137,51 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - git checkout y git reset (introducción)
     - git checkout
       - Evolución de git checkout: Nuevos comandos git switch y git restore
-        - git checkout a nivel de archivo (restore) 
+        - git checkout / git restore a nivel de archivo (restore) 
   - git reset
     - opciones de git reset: --soft, --mixed y --hard
     - git reset a nivel de archivo
--->
-
-- [Descanso] 11:30 - 11:50
-
-<!-- - Reescribiendo la historia (2)
   - rebase interactivo
     - edit: modificando un commit
     - squash y fixup: fusionando commits
     - drop: eliminando un commit
+
 - Otros comandos
-  - git clean
   - git revert 
+
+  <!-- 
+  - git clean
   - Preparar un commit parcial: git add -p
+  -->
 
-- Trabajando en paralelo
-    - main y feature branches (features/homepage, features/login, features/signup)
-    - hotfixes (hotfixes/login-error, hotfixes/signup-error)
-    - bugs (bugs/login-error, bugs/signup-error)
-    - Ramas: etiquetas -->
+- [Descanso] 11:30 - 11:50
 
-### Día 3 (Jueves 12/11/2026)
-
-  <!-- - Ramas
-    - Crear y seleccionar
-      - Crear desde referencia
-    - Ver ramas
-    - Borrar ramas
-    - Mover y renombrar ramas
-  - git stash
+- Trabajando en paralelo: ramas
+    - Ramas: etiquetas
+      - main y feature branches (feature/homepage, feature/login, feature/signup)
+      - hotfixes (hotfix/login-error, hotfix/signup-error)
+      - bugs (bug/login-error, bug/signup-error)
+ 
+    - Operaciones con ramas
+      - Crear y seleccionar
+        - Crear desde referencia
+      - Ver ramas
+      - Borrar ramas
+      - Mover y renombrar ramas
+    - git stash
 
   - Combinación de ramas: Merge y Rebase
     - git merge
       - fast-forward
       - three-way (ort) merge
-    - git rebase -->
+      - --no-ff (force a merge ort)
+    - git rebase 
+    - Resolución de conflictos
 
-- [Descanso] 11:20 - 11:40
+
+### Día 3 (Jueves 12/11/2026)
 
 <!-- - Combinación de ramas (continuación)
-    - Resolución de conflictos
   - git cherry-pick
   - patches (mención breve) 
 
@@ -210,17 +210,15 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 -->
   
-### Día 4 (Reubicar)
+- [Descanso] 11:20 - 11:40
+- [Encuesta]
 
-  <!-- - Ramas remotas (review)
+<!-- - Ramas remotas (review)
 
   - Pull requests (GitHub) / Merge requests (GitLab)
     - Flujo de trabajo típico
     - Revisión de código 
 
-- [Descanso] 11:10 - 11:30
-
-- [Encuesta]
 
 - Pull requests (GitHub) / Merge requests (GitLab)
     - Resolución de conflictos en remoto
