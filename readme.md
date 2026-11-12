@@ -119,8 +119,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Añadir ficheros
     - Eliminar de la Staging Area (Index)
 
-<!-- - Preparar un commit parcial: git add -p -->
-
 ### Día 2 (Miércoles 11/11/2026)
   
 - Herramientas para preparar un buen commit en cualquier situación (2)
@@ -151,7 +149,6 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
   <!-- 
   - git clean
-  - Preparar un commit parcial: git add -p
   -->
 
 - [Descanso] 11:30 - 11:50
@@ -181,7 +178,7 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
 
 ### Día 3 (Jueves 12/11/2026)
 
-<!-- - Combinación de ramas (continuación)
+- Combinación de ramas (continuación)
   - git cherry-pick
   - patches (mención breve) 
 
@@ -208,16 +205,14 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
     - Crear ramas locales a partir de ramas remotas: fetch + checkout / switch -c
     - Eliminar ramas remotas git branch -d -r origin/feature/branch
 
--->
+  - Pull requests (GitHub) / Merge requests (GitLab)
+    - Flujo de trabajo típico
+    - Revisión de código 
   
 - [Descanso] 11:20 - 11:40
 - [Encuesta]
 
-<!-- - Ramas remotas (review)
-
-  - Pull requests (GitHub) / Merge requests (GitLab)
-    - Flujo de trabajo típico
-    - Revisión de código 
+- Ramas remotas (continuación)
 
 
 - Pull requests (GitHub) / Merge requests (GitLab)
@@ -233,16 +228,20 @@ Desarrollo del curso en la carpeta Oficial -> [repo](https://github.com/IconoTC/
   - GitHub Flow
     - Ship-Show-Ask
 
-- Buenas prácticas -->
-
-<!--
-(No incluido en el curso actual, pero puede ser interesante para el alumno)
-
-- git notes
+- Buenas prácticas 
 
 - Configuración avanzada de git
   - Hooks
   - Husky (Hooks en JS) 
+
+- Forks
+
+<!-- (No incluido en el curso actual, pero puede ser interesante para el alumno)
+
+- Preparar un commit parcial: git add -p
+- git notes -->
+
+<!-- COMENTADO
 
 - Sub-proyectos (submodules)
 
